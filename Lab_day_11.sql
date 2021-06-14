@@ -1,7 +1,27 @@
-# Review the tables in the database.
-#     Done --> y right clicked on every table and cliked on "select rows" to open each table and study it
-# Explore tables by selecting all columns from each table or using the in built review features for your client.
-#      Same as above
+#1. Review the tables in the database.
+#     Done
+#2. Explore tables by selecting all columns from each table or using the in built review features for your client.
+#      Another way --> right click --> select rows and tab gets opened
+
+SELECT * FROM actor;
+SELECT * FROM address;
+SELECT * FROM category;
+SELECT * FROM city;
+SELECT * FROM country;
+SELECT * FROM customer;
+SELECT * FROM film;
+SELECT * FROM film_actor;
+SELECT * FROM film_category;
+SELECT * FROM film_text;
+SELECT * FROM inventory;
+SELECT * FROM language;
+SELECT * FROM payment;
+SELECT * FROM rental;
+SELECT * FROM staff;
+SELECT * FROM store;
+
+
+
 #3. Select one column from a table. Get film titles.
 SELECT title FROM film;
 
